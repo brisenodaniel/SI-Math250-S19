@@ -1,0 +1,37 @@
+\documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\date{}
+\author{}
+\title{SI Session 2: Basic Set Theory and More Proof Writing}
+\begin{document}
+	\maketitle
+
+\section{Set Theory}
+	\subsection{Basic Grammar}
+	\paragraph{Define: } $A =\{1,2,3,\{3,2\},2,4\};   B=\{1,2,3\}; C=\{A,\{B\},C\}$
+	\begin{enumerate}
+	\item True or false: $A \in B$
+	\item True or false: $B \in A$
+	\item True or false: $B \subseteq A$
+	\item True or false: $\{A\}\in C$
+	\item True or false: $\{B\} \in C$
+	\item True or false: $\emptyset \in C$
+	\item True or false: $\emptyset \subset C$
+	\item Something here does not make sense, find it.
+	\end{enumerate} 
+	\subsection{Carteisan Product}
+	\paragraph{Define: } $K=\{red, blue, green\}; L=\{1,2,3\}$
+	\begin{enumerate}[resume] 
+	\item Calculate: $K \times L$
+	\item Calculate: $L \times K$
+	\item Calculate:$ |K|, |L|, |L\times K|$
+	\end{enumerate}
+\section{Proof-Writing}
+	\textbf{Prove by induction: } \\ \small $a_1 b_1+...+a_n b_n=(a_1-a_2)b_1+(a_2-a_3)(b_1+b_2)+...+(a_{n-1} - a_n)(b_1+...+b_{n-1})+a_n(b_1+...+b_n)$
+\end{document}

@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\title{SI 2 : Lists and More Advanced Induction}
+\author{}
+\date{}
+\begin{document}
+	\maketitle
+	\section{List Vocabulary Review}
+	For:
+	\begin{align*}
+		\text{L} &= [a,b,c]\\
+		\text{K} &= [1,2,3]\\
+		\text{M} &= [\text{red, green, blue}]
+	\end{align*}
+	Give the results of the following operations:
+	\begin{enumerate}
+		\item L$++$M
+		\item L$++$M$++$K
+		\item $c$::K
+		\item M::K
+		\item $c$::$b$
+	\end{enumerate}
+	\section{Proofs With Lists}
+	\begin{enumerate}[resume]
+		\item Prove: $rev($A$++$B$) = rev($B$)++rev($A$)$
+		\item Prove: $rev(rev($K$))=$K
+		\item For a list $L$ in which no elements repeat, and $i,j \in \mathbb{N}$ such that $i,j < len(L)$ and $i \neq j$, prove that $L_i \neq L_j$
+		\item Prove: For two lists $K$ and $L$, if $len(K)=len(L)$, then $len(K++L) = 2len(L)$
+	\end{enumerate}
+	\section{A More Difficult Inductive Proof}
+	\paragraph{Prove:} For a tower of $n$ disks, it takes $2^n-1$ moves to solve the problem of the Towers of Hanoi.\newline
+	\paragraph{The problem of the Towers of Hanoi:} There are $n$ disks stacked on one of 3 pegs, ordered from smallest disk to largest (smallest disk on the top). The task is to move all the disks to another peg following this set of rules:
+	\begin{itemize}
+		\item Only one disk may be moved at a time
+		\item No disk may be placed on a peg with a smaller disk underneath it
+	\end{itemize}
+\end{document}
