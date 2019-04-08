@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  20 FEB 2019 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.10)  8 MAR 2019 09:05
 entering extended mode
 **./Basic_Set_Theory_and_Advanced_Induction.tex
 (Basic_Set_Theory_and_Advanced_Induction.tex
@@ -282,19 +282,19 @@ G,.JBIG2,.JB2,.eps]
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(48.93872pt, 722.7pt, 73.40813pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
+* h-part:(L,W,R)=(90.3375pt, 433.62pt, 90.33751pt)
+* v-part:(T,H,B)=(28.90799pt, 722.7pt, 43.362pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
 * \textwidth=433.62pt
 * \textheight=722.7pt
-* \oddsidemargin=9.67395pt
-* \evensidemargin=9.67395pt
-* \topmargin=-60.33127pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-80.362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -331,7 +331,7 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 13.
 Here is how much of TeX's memory you used:
  3925 strings out of 493323
  56035 string characters out of 3139066
- 127148 words of memory out of 3000000
+ 127141 words of memory out of 3000000
  7399 multiletter control sequences out of 15000+200000
  15379 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -346,7 +346,7 @@ Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Basic_Set_Theory_and_Advanced_Induction.pdf (1 page, 102386 b
+Output written on Basic_Set_Theory_and_Advanced_Induction.pdf (1 page, 102376 b
 ytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)

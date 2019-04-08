@@ -1,0 +1,29 @@
+\documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage[letterpaper, total={6in, 10in}]{geometry}
+\date{}
+\author{}
+\title{SI 5: The Proof to end all Proofs (jk you wish)}
+\begin{document}
+	\maketitle
+	Consider that for sets $A,B,C \subseteq U$, the following are true:
+	
+	\begin{enumerate}
+		\item $A \subseteq A$
+		\item $A \subseteq B$ and $B \subseteq C$ $\implies$ $ A \subseteq C$
+		\item $A = B$ $\iff$ $A\subseteq B$ and $B\subseteq A$
+		\item $A \subseteq B \cap C$ $\iff$ $ A \subseteq B$ and $A \subseteq C$
+		\item $A \cup B \subseteq C$ $\iff$ $A\subseteq C$ and $B \subseteq C$
+		\item $A \subseteq B \cup C$ $\iff$ $A \setminus B \subseteq C$
+	\end{enumerate}
+	Using these facts and only these facts, prove that intersection distributes over union, i.e prove that:
+	\begin{align*}
+		D \cap (E \cup F) = (D \cap E) \cup (D \cap F)
+	\end{align*}
+	Is true $\forall$ subsets $D,E,F$. Again, you should not mention any facts other than the 6 listed laws.
+\end{document}
