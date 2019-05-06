@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage[letterpaper, total={6in, 10in}]{geometry}
+\date{}
+\author{}
+\title{}
+\begin{document}
+	I had incorrectly stated that in order to turn a regular summation into one  computable by finite calculus, we apply the following identity:
+	\begin{align*}
+		\sum_{k=j}^N\limits f(k) =\sum_{k=j}^{N-1}\limits f(k) \delta k 
+	\end{align*}
+	This is wrong, the right identity is:
+	\begin{align*}
+			\sum_{k=j}^N\limits f(k) = 	\sum_{k=j}^{N+1}\limits f(k) \delta k
+	\end{align*}
+	
+	Note that only the limits of summation are what was incorrect, so all methods of solving these summations we discussed are still valid. This error only affects the last, and easiest, step in evaluating these summations, so if you would like to correct your notes just replace all the $n-1$ limits with $n+1$ and re-do the last step in the computation (where the difference $F(N+1) - F(j)$ is computed).\\
+	
+	\indent The full, correct fundamental theorem of finite calculus is:
+	\begin{align*}
+		\sum_{k = j}^{N}\limits f(k) = \sum_{k=j}^{N+1} f(k)\delta k = F(N) - F(k)
+	\end{align*}
+	
+	In order to clear up any confusion, I will repeat some of the computation for the double sum done in the SI here. If you went to the SI you should be able to follow along:
+
+	\begin{align*}
+		\sum_{x=1}^N\limits \sum_{y=1}^N\limits (x+y)^2 &= \sum_{x=1}^{N+1}\limits \sum_{y=1}^{N+1}\limits (x+y)^2 \delta y \delta x\\
+		&=\sum_{x=1}^{N+1}\limits \sum_{y=1}^{N+1}\limits\left( (x+y)^{\underline{2}} +(x+y)^{\underline{1}} \right)\delta y \delta x\\
+		&=\sum_{x=1}^{N+1}\limits\left[\frac{(x+y)^{\underline{3}}}{3} + \frac{(x+y)^{\underline{2}}}{2}\right]_{y=1}^{y=N+1} \delta x\\
+		&= \sum_{x=1}^{N+1}\limits\left[\left( \frac{(x+N+1)^{\underline{3}}}{3} + \frac{(x+N+1)^{\underline{2}}}{2}\right) - \left(\frac{(x+1)^{\underline{3}}}{3} + \frac{(x+1)^{\underline{2}}}{2}\right) \right] \delta x\\
+		&= \left[\left( \frac{(x+N+1)^{\underline{4}}}{12} + \frac{(x+N+1)^{\underline{3}}}{6}\right) - \left(\frac{(x+1)^{\underline{4}}}{12} + \frac{(x+1)^{\underline{3}}}{6}\right) \right]_{x=1}^{x=N+1}
+	\end{align*}
+
+
+	Note that only the boundaries of summation are different.
+\end{document}

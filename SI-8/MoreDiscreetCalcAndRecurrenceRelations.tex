@@ -1,0 +1,32 @@
+\documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{stmaryrd}
+\usepackage[letterpaper, total={6in, 10in}]{geometry}
+\date{}
+\author{}
+\title{SI 8: Finite Calculus and Recurrence Relations}
+\begin{document}
+	\maketitle
+	\section{Discreet Calculus}
+	Recall that:
+	\begin{align*}
+	\sum u(x)\Delta v(x) \delta x = u(x)v(x) - \sum v(x+1)\Delta u(x)\delta x
+	\end{align*}
+	
+	\begin{enumerate}
+		\item Calculate: $\sum^N_{x=1}\limits(H_x {x\choose{m-1}}+{{x+1}\choose m}x^{\underline{-1}})$
+	\end{enumerate}
+
+	\section{Recurrence Relations}
+	\begin{enumerate}[resume]
+		\item Find the family of polynomial functions with a function equivalent to:
+		\begin{align*}
+		f(n) = \frac{n}{2} \% 4
+		\end{align*} 
+		You do not need to solve for constants $a_1, a_2,...,a_n$ of the general formula.
+	\end{enumerate}
+\end{document}
